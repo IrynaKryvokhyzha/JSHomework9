@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+		<h1> Задача 8</h1>
+		<p>
+		Дано масив номерів авто. Сформувати новий масив тих, які починаються на «А»
+		</p>
+		<script>
+			let carIdNumbers = ["CE4543AA", "AA8754AA", "AB5486CA", "CE3674CC", "AA4562BA" ]
+			let carIdNumbersWithA = carIdNumbers.filter (element => element[0] === 'A')
+			
+			document.write(`
+			Початковий масив ${carIdNumbers}<br>
+			Новий масив ${carIdNumbersWithA}
+			`)
+		</script>
+</body>
+
+</html>
